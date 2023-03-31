@@ -1,5 +1,8 @@
+
 # Controlled Access Web Interface
 The Controlled Access Web Interface is a web application that provides controlled access to specific users, sites, or IP addresses. This web interface is designed to help organizations limit access to sensitive or confidential information by restricting access to authorized users only. The application is deployed using Kubernetes deployment service and ingress.
+
+![kubernetes](https://user-images.githubusercontent.com/99130650/229163422-63a5ca52-218a-4709-9451-250509bfa4c4.jpg)
 
 In addition, the project utilizes Jenkins pipeline to automatically trigger the deployment process every 5 minutes, generating a new pipeline if any changes are made to the code. This ensures that the web interface is always up to date and properly secured for authorized users.
 
