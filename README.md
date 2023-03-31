@@ -11,9 +11,10 @@ Kubernetes deployment service and ingress for efficient management and scaling
 Intuitive and easy-to-use web interface
 
 -----
-This repository contains a simple Java Gradle application that can be used to build and deploy a Docker image to a Kubernetes cluster.
+
 
 ### Prerequisites
+This repository contains a simple Java Gradle application that can be used to build and deploy a Docker image to a Kubernetes cluster.
 In order to build and deploy the application, you'll need the following tools installed on your local machine:
 
 Java 11
