@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: myapp
+spec:
+  podSelector:
+    matchLabels:
+      app: appname
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+    - ipBlock:
+        cidr: 10.0.0.0/24 # Replace with your allowed CIDR range
+    ports:
+    - port: 80
+      protocol: TCP
