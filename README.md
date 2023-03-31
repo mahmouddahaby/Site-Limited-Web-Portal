@@ -13,8 +13,8 @@ Kubernetes CLI (kubectl)
 To get started with this application, you'll need to follow these steps:
 
 
-1 - Clone this repository: git clone https://github.com/mahmouddahaby/App-repo-grad1.git
-2- cd into the App-repo-grad1 directory
+1 - Clone this repository: git clone [https://github.com/mahmouddahaby/App-repo-grad1.git](https://github.com/mahmouddahaby/Site-Limited-Web-Portal)
+2- cd into the Site-Limited-Web-Portal directory
 3- Build the Docker image: docker build -t my-app .
 4- Run the Docker container: docker run -p 8080:8080 my-app
 5- Open your web browser and navigate to http://localhost:8080 to see the "Hello World" message.
