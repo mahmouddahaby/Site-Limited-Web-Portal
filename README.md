@@ -1,4 +1,4 @@
-### App-Repo-Grad1
+### Controlled Access Web Interface
 This repository contains a simple Java Gradle application that can be used to build and deploy a Docker image to a Kubernetes cluster.
 
 ### Prerequisites
