@@ -1,4 +1,15 @@
 ### Controlled Access Web Interface
+The Controlled Access Web Interface is a secure web application that provides access to authorized users, sites, or IP addresses only. This web interface is designed to help organizations protect sensitive or confidential information by restricting access to authorized users only.
+
+The web application is deployed using Kubernetes deployment service and ingress, which enables efficient management and scaling of the application. The ingress service provides routing rules and load balancing to ensure that the application is highly available and accessible.
+
+To use the Controlled Access Web Interface, users must be authorized and granted access credentials by the organization's administrators. The web interface provides a clean and intuitive interface that enables users to access the authorized content and features easily and efficiently.
+
+Features
+Restricted access to authorized users, sites, or IP addresses
+Kubernetes deployment service and ingress for efficient management and scaling
+Intuitive and easy-to-use web interface
+-----
 This repository contains a simple Java Gradle application that can be used to build and deploy a Docker image to a Kubernetes cluster.
 
 ### Prerequisites
