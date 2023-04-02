@@ -69,5 +69,12 @@ kubectl apply -f app-k8s/service.yaml
  ```
 This will create a service that exposes the deployment on a cluster-internal IP address.
 
+
+Finally apply ingress to put access limit by apply ingress
+
+```
+kubectl apply -f app-k8s/fs-app-policy.yaml
+```
+
 ### Contributing
 If you'd like to contribute to this project, feel free to open a pull request.
