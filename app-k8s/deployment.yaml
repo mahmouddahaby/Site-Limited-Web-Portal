@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: appname
-        image: 328440967566.dkr.ecr.us-east-1.amazonaws.com/FS-app
+        image: 328440967566.dkr.ecr.us-east-1.amazonaws.com/fsapp
         imagePullPolicy: Always
         resources:
           requests:

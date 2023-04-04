@@ -13,8 +13,8 @@ pipeline {
       steps {
         script {
           def tag = "build-${env.BUILD_NUMBER}"
-          sh "docker build -t FS-app:${tag} ."
-          sh "docker push 328440967566.dkr.ecr.us-east-1.amazonaws.com/FS-app:${tag}"
+          sh "docker build -t fsapp:${tag} ."
+          sh "docker push 328440967566.dkr.ecr.us-east-1.amazonaws.com/fsapp:${tag}"
         }
       }
     }
