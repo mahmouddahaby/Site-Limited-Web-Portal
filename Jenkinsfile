@@ -1,6 +1,10 @@
 pipeline {
   agent any
   
+  triggers {
+    cron('H/5 * * * *')
+  }
+  
   environment {
     ECR_REPOSITORY = '328440967566.dkr.ecr.us-east-1.amazonaws.com' // Replace with your ECR repository URI
     IMAGE_TAG = "build-${env.BUILD_NUMBER}" // Use the build number as the image tag
